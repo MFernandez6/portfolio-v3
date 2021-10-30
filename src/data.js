@@ -16,19 +16,19 @@ export const projects = [
       link: "https://www.google.com",
     },
     {
+      title: "eCommerce Webapp",
+      subtitle: "React, Node.js, mySQL",
+      description:
+      "This full-stack web app allows clients to purchase products while updating the mySQL database in realtime.",
+      image: "./frankies-bodega.jpg",
+      link: "https://www.google.com",
+    },
+    {
       title: "Holdings Company",
       subtitle: "React and Firebase",
       description:
       "A full-stack web application that allows clients secure access to the database directly from the client-side via Firebase.",
       image: "./FIF.jpg ",
-      link: "https://www.google.com",
-    },
-    {
-      title: "eCommerce Webapp",
-      subtitle: "React, Node.js, mySQL",
-      description:
-      "This full-stack web app allows clients to purchase products while updating the mySQL database in realtime.",
-      image: "./logo.jpg",
       link: "https://www.google.com",
     },
   ];
