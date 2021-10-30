@@ -1,17 +1,17 @@
 export const projects = [
     {
-      title: "Foodtruck",
+      title: "A Contemporary Approach to Food Trucks",
       subtitle: "React and Node.js",
       description:
-        "Created a front-end web app that allows customers to order ahead of time using Node.js.",
+        "Node.js uses asynchronous progamming that handles the clients' requests.",
       image: "./pichons-foodtruck.jpg",
       link: "www.google.com",
     },
     {
-      title: "Coffee Shop",
-      subtitle: "React and Python",
+      title: "Neighborhood Coffee Shop",
+      subtitle: "React Hooks",
       description:
-      "This full-stack web app allows clients to send information from the client side to the back-end databases.",
+      "React hooks allow the user to temporarily hold information without having to access databases. Clients order products without delay.",
       image: "./river-run-coffee-shop.jpg",
       link: "https://www.google.com",
     },
@@ -19,21 +19,21 @@ export const projects = [
       title: "Holdings Company",
       subtitle: "React and Firebase",
       description:
-      "A full-stack web application that allows users to contact the company via Firebase.",
+      "A full-stack web application that allows clients secure access to the database directly from the client-side via Firebase.",
       image: "./FIF.jpg ",
       link: "https://www.google.com",
     },
     {
-      title: "Vending Machines",
-      subtitle: "React Hooks",
+      title: "eCommerce Webapp",
+      subtitle: "React, Node.js, mySQL",
       description:
-      "React hooks allow the user to temporarily hold information without having to access databases.",
+      "This full-stack web app allows clients to purchase products while updating the mySQL database in realtime.",
       image: "./logo.jpg",
       link: "https://www.google.com",
     },
   ];
 
-  export const skills = ["JavaScript", "React", "Node", "Python", "SQL", "Tailwind CSS"];
+  export const skills = ["JavaScript", "React", "Node.js", "Python", "MySQL", "Tailwind CSS"];
 
   export const testimonials = [    
     {

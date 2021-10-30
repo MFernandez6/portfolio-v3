@@ -11,18 +11,18 @@ export default function About() {
             <br/>I'm a junior full-stack engineer.
           </h1>
           <p className="mb-8 leading-relaxed">
-            I love building clean, and minimal web apps designed to guide the client's attention to what's most important. 
+            I love building clean, minimal web apps designed to guide the client's attention to what's most important. 
           </p>
           <div className="flex justify-center">
             <a
               href="#contact"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-              Work With Me
+              Get in touch!
             </a>
             <a
               href="#projects"
               className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              See My Past Work
+              See My Past Work!
             </a>
           </div>
         </div>
