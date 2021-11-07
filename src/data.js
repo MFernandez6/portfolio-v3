@@ -17,11 +17,11 @@ export const projects = [
     },
     {
       title: "eCommerce Webapp",
-      subtitle: "React, Node.js, mySQL",
+      subtitle: "React, Bootstrap, PayPal",
       description:
-      "This full-stack web app allows clients to purchase products while updating the mySQL database in realtime.",
+      "This front-end web app allows clients to purchase products using a PayPal portal.",
       image: "./frankies-bodega.jpg",
-      link: "https://www.google.com",
+      link: "https://miguels-e-commerce-store.netlify.app",
     },
     {
       title: "Holdings Company",
