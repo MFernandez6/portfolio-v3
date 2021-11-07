@@ -21,7 +21,7 @@ export const projects = [
       description:
       "This front-end web app allows clients to purchase products using a PayPal portal.",
       image: "./frankies-bodega.jpg",
-      link: "https://miguels-e-commerce-store.netlify.app",
+      link: "https://frankies-bodega.netlify.app/",
     },
     {
       title: "Holdings Company",
@@ -29,7 +29,7 @@ export const projects = [
       description:
       "A full-stack web application that allows clients secure access to the database directly from the client-side via Firebase.",
       image: "./FIF.jpg ",
-      link: "https://www.google.com",
+      link: "https://miguels-e-commerce-store.netlify.app/",
     },
   ];
 
