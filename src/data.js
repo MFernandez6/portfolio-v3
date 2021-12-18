@@ -39,7 +39,7 @@ export const projects = [
     {
     quote: "Mig L shares the same vision as the Wu. It shows in his every move. His mind is connected to the Supreme being",
     image: "./pichons-foodtruck.jpg",
-    name:  "RZA",
+    name:  "Tester",
     company: "WU TANG CLAN",
   },
   {
