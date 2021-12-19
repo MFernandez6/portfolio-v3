@@ -33,30 +33,30 @@ export const projects = [
     },
   ];
 
-  export const skills = ["JavaScript", "React", "Node.js", "Python", "MySQL", "Tailwind CSS"];
+  export const skills = ["JavaScript", "MongoDB", "Express", "React", "Node.js", "Python", "MySQL", "Tailwind CSS"];
 
   export const testimonials = [    
     {
-    quote: "Mig L shares the same vision as the Wu. It shows in his every move. His mind is connected to the Supreme being",
-    image: "./pichons-foodtruck.jpg",
-    name:  "Tester",
-    company: "WU TANG CLAN",
-  },
-  {
-    quote: "Made sure to protect our neck.",
-    image: "./pichons-foodtruck.jpg",
-    name:  "GHOSTFACE KILLAH",
-    company: "WU TANG CLAN",
-  },
-  {
-    quote: "YO the boy is hot. The skills don't lie son.",
-    image: "./pichons-foodtruck.jpg",
-    name:  "METHOD MAN",
-    company: "WU TANG CLAN",
-  },
-  {
-    quote: "The kid kept it real! Street hustlers woulda been trynna charge me 3x 4x straight up. Mad love",
-    image: "./pichons-foodtruck.jpg",
-    name:  "RAEKWAN",
-    company: "WU TANG CLAN",
+      quote: "Mr. Fernandez's web apps have continued to impress me as he improves with every project. It's incredible to see what he has accomplished in such a short time.",
+      image: "./testi.png",
+      name:  "John Nevermin",
+      company: "English Professor",
+    },
+    {
+      quote: "I met Miguel through a mutual acquaintance. His work always stood out as unique and appreciable.",
+      image: "./testi.png",
+      name:  "Sofia Brushwood",
+      company: "Logistics Coordinator",
+    },
+    {
+      quote: "Mr. Fernandez has been a pleasure to work with. His insight and understanding of current technologies, as well as his amiable demeanor, solidifies future business endeavors",
+      image: "./testi.png",
+      name:  "Myrna Fincelli",
+      company: "Writer & Editor",
+    },
+    {
+      quote: "Miguel Fernandez's portfolio contains a wide range of clean, and crisp examples of work that our clients come to expect.",
+      image: "./testi.png",
+      name:  "Geoff A. Cardinghall",
+      company: "Attorney",
   },];
