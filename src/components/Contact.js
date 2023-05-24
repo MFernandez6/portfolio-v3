@@ -37,16 +37,17 @@ export default function Contact() {
             marginHeight={0}
             marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed/v1/place?q=1700+NW+North+River+Drive&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114964.39577177136!2d-80.31203158061653!3d25.782538776249563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b0a20ec8c111%3A0xff96f271ddad4f65!2sMiami%2C%20FL!5e0!3m2!1sen!2sus!4v1684965217035!5m2!1sen!2sus"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                ADDRESS
+                Servicing:
               </h2>
               <p className="mt-1">
-                1700 NW North River Drive <br />
-                Miami, Florida 33125
+                The Greater Miami and
+                <br />
+                metropolitan communities.
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -54,12 +55,14 @@ export default function Contact() {
                 EMAIL
               </h2>
               <a className="text-indigo-400 leading-relaxed">
-                miguelfernandez023@gmail.com
+                OthersideTravelsAndTreatments
+                <br/>
+                @gmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
-              <p className="leading-relaxed">786-417-3869</p>
+              <p className="leading-relaxed">+1 (786) 417-3948</p>
             </div>
           </div>
         </div>
@@ -71,8 +74,8 @@ export default function Contact() {
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Contact Me!
           </h2>
-          <p className="leading-relaxed mb-5">
-            Please do not hesistate to reach out anytime regarding work, consultations, or collaborations!
+          <p className="text-justify leading-relaxed mb-5">
+            Please do not hesitate to contact me with any questions or to schedule your next appointment. I look forward to helping you achieve a state of relaxation and wellness.
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">

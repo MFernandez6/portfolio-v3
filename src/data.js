@@ -37,26 +37,53 @@ export const projects = [
 
   export const testimonials = [    
     {
-      quote: "Mr. Fernandez's web apps have continued to impress me as he improves with every project. It's incredible to see what he has accomplished in such a short time.",
-      image: "./testi.png",
-      name:  "John Nevermin",
-      company: "English Professor",
+      quote: "I had an amazing experience with Luis! He was friendly and welcoming, and was incredibly skilled. I left feeling relaxed and rejuvenated. Highly recommend him!!",
+      image: "./rocks2.jpg",
+      name:  "Courtney Parker",
+      company: "Hospitality",
     },
     {
-      quote: "I met Miguel through a mutual acquaintance. His work always stood out as unique and appreciable.",
-      image: "./testi.png",
+      quote: "I've been a regular with Luis for years, and honestly it's one of the best decisions I've ever made for my mental and physical health.",
+      image: "./rocks2.jpg",
       name:  "Sofia Brushwood",
-      company: "Logistics Coordinator",
+      company: "Nursing",
     },
     {
-      quote: "Mr. Fernandez has been a pleasure to work with. His insight and understanding of current technologies, as well as his amiable demeanor, solidifies future business endeavors",
-      image: "./testi.png",
-      name:  "Myrna Fincelli",
-      company: "Writer & Editor",
+      quote: "As someone who suffers from chronic pain, finding a therapist that understands my needs can be a challenge. However, Mr. Fernandez has exceeded my expectations. He is attentive and listened to my concerns. The massage was therapeutic and effective. I've already scheduled my next appointment!",
+      image: "./rocks2.jpg",
+      name:  "Juan Rodriguez",
+      company: "Hospitality",
     },
     {
-      quote: "Miguel Fernandez's portfolio contains a wide range of clean, and crisp examples of work that our clients come to expect.",
-      image: "./testi.png",
-      name:  "Geoff A. Cardinghall",
-      company: "Attorney",
-  },];
+      quote: "I recently visited Luis with my husband. He was super accommodating and was able to book us back-to-back. He made us feel at ease, and the massage itself was heavenly. We left feeling connected and relaxed, and we can't wait to come back for another appointment!",
+      image: "./rocks2.jpg",
+      name:  "Jenny and Charles",
+      company: "Attorneys",
+  },]
+
+  export const services = [    
+    {
+      desc: "Deep tissue massage uses focussed, intense pressure to penetrate to deeper layers of muscle, also known as connective tissue. Hands, fists, fingertips and elbows will be used in slow strokes to work over the tense area. Great for people who suffer from chronic tension.",
+      image: "./deepdish.webp",
+      name:  "Deep Tissue Massage",
+      price: "$100.00 / Hour",
+    },
+    {
+      desc: "During a Swedish session varying techniques will be used to help loosen tight muscles and flush out toxins. Swedish massage can help with a myriad of problems, from aches, pains and stiffness to poor flexibility and circulation. It is also a great way of bringing stress levels down, which can in turn improve general health.",
+      image: "./deepdish.webp",
+      name:  "Swedish Massage",
+      price: "$100.00 / Hour",
+    },
+    {
+      desc: " Acupuncture is known to increase energy, circulation, range of motion, relaxation, well-being, and immune function and may also decrease pain, fatigue, inflammation, stress, and anxiety. Needles will typically stay in place for 20 minutes, but depending on the individual can be in place up to 40 minutes.",
+      image: "./acupuncture.jpg",
+      name:  "Acupuncture",
+      price: "$100.00 / Hour",
+    },
+    {
+      desc: "Deep tissue massage uses focussed, intense pressure to penetrate to deeper layers of muscle, also known as connective tissue. Hands, fists, fingertips and elbows will be used in slow strokes to work over the tense area. Great for people who suffer from chronic tension.",
+      image: "./deepdish.webp",
+      name:  "Deep Tissue Massage",
+      price: "$100.00 / Hour",
+    }
+  ];

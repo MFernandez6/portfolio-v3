@@ -1,30 +1,45 @@
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
+import { Icon } from '@iconify/react';
 import React from "react";
-import { skills } from "../data";
+import { services } from "../data";
 
 export default function Skills() {
   return (
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
-        <div className="text-center mb-20">
-          <ChipIcon className="w-10 inline-block mb-4" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
-            Skills &amp; Technologies
-          </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Below is a simple list of all the major tools in my repertoire when constructing full-stack web apps. As technologies continue to advance, I have continued to learn and add the latest and most efficient languages for computer programming to my library of skills.
-          </p>
-        </div>
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-          {skills.map((skill) => (
-            <div key={skill} className="p-2 sm:w-1/2 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
-                <span className="title-font font-medium text-white">
-                  {skill}
-                </span>
-              </div>
-            </div>
+        <br/>
+        <br/>
+        <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4 text-center">
+          Massage Therapy &amp; Acupuncture Services <br/> <Icon icon="tabler:massage" className="sm:text-4xl text-3xl font-medium title-font text-white mb-4 text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto" />
+        </h1>
+          
+        <p className="text-center text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          At my practice, I offer a variety of massage therapy and acupuncture services to help my clients find relief from physical pain and discomfort. The services rendered are focused on relieving tension, reducing stress, and restoring balance in the body. For a fantastic lifestyle, pair with nutritious eating!
+        </p>
+
+        <div className="flex flex-wrap m-4">
+          {services.map((services) => (
+              <div className="p-4 md:w-1/2 w-full">
+                <div className=" justify-center h-full bg-gray-800 bg-opacity-40 p-8 rounded">
+                  <div >
+                    <img
+                      alt=""
+                      src={services.image}
+                      className="w-12 rounded-full flex-shrink-0 object-cover object-center"
+                    />
+                    <span className="flex-grow flex flex-col pl-4">
+                      <span className="text-center title-font font-medium text-white">
+                        {services.name}
+                      </span>
+                      <span className="text-center title-font font-medium text-white">
+                        {services.price}
+                      </span>
+                      <span className=" text-justify text-gray-500 text-sm">
+                        {services.desc}
+                      </span>
+                    </span>
+                  </div>
+                </ div>
+              </ div>
           ))}
         </div>
       </div>
